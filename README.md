@@ -74,7 +74,7 @@ Now we can login using our admin account under MYDOMAIN: <br/>
 </p>
 
 <p align="center">
-Next service we need to install is RAS/NAT so our future Win11 client can access the internet through the DC while being nested in this private virtual network: Add roles and features>Next x3>:Remote Access>Next x3>Routing>Add Features>Next x3>Install <br/>
+Next service we need to install is RAS/NAT so our future Win11 client can access the internet through the DC while being nested in this private virtual network: Add roles and features>Next x3>:Remote Access>Next x3>Routing>Add Features>Next x3>Install: <br/>
 <img src="https://imgur.com/agj2eVV.png" height="80%" width="80%" alt="Next service we need to install is RAS/NAT"/>
 <br />
 </p>
