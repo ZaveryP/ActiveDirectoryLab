@@ -79,6 +79,7 @@ Next service we need to install is RAS/NAT so our future Win11 client can access
 <br />
 </p>
 
+<p align="center">
 Tools>Routing and Remote Access>DC(local)>Configure and Enable Routing and Remote Access>Next>NAT (typically have to redo this step tree to see the Network Interfaces for some reason)>select _INTERNET_>Finish: <br/>
 <img src="https://imgur.com/EBpM2AE.png" height="80%" width="80%" alt="Now we can login using our admin account under MYDOMAIN"/>
 <br />
