@@ -103,7 +103,11 @@ Creating 1000 users using a Powershell script sourced online (I'll learn powersh
 <br />
 </p>
 
-
+<p align="center">
+Time to create the Client1 VM hosted on Win11 Pro, using an internal NIC as our only network connection for this machine (run through setup same as Server 2019): <br/>
+<img src="https://imgur.com/mfuQfeU.png" height="80%" width="80%" alt="After starting VM, running through custom install"/>
+<br />
+</p>
 
 <!--
  ```diff
