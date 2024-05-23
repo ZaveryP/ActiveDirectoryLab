@@ -27,7 +27,7 @@ Example1: <br/>
 
 <p align="center">
 Example1: <br/>
-<img src="https://imgur.com/a/00Q8g1V.png" height="80%" width="80%" alt="First VM is the Domain Controller using Windows Server 2019"/>
+<img src="https://imgur.com/a/00Q8g1V.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
 <br />
 </p>
 
