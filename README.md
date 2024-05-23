@@ -51,7 +51,7 @@ Assigning static IP to internal NIC (no default gateway because DC serves *as* t
 
 <p align="center">
 First service to install is Active Directory through: "Add roles and features">Next x3>Highlighting Active Directory Domain Services and Add Features>Next x3>Install: <br/>
-<img src="https://imgur.com/2SuK69o.png" height="80%" width="80%" alt="First service to install is Active Directory"/>
+<img src="https://imgur.com/rHZLzeX.png" height="80%" width="80%" alt="First service to install is Active Directory"/>
 <br />
 </p>
 
