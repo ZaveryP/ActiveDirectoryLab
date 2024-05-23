@@ -56,8 +56,8 @@ First service to install is Active Directory through: "Add roles and features">N
 </p>
 
 <p align="center">
-After installing AD you have to promote the server to a domain, simple domain name of 'mydomain.com': <br/>
-<img src="https://imgur.com/waizNij.png" height="80%" width="80%" alt="First VM is the Domain Controller using Windows Server 2019"/>
+After installing AD you have to promote the server to a domain, simple domain name of 'mydomain.com' and Next x4>Install (all passwords in lab are Password1), and after signing out MYDOMAIN is created!: <br/>
+<img src="https://imgur.com/waizNij.png" height="80%" width="80%" alt="After installing AD you have to promote the server to a domain"/>
 <br />
 </p>
 
