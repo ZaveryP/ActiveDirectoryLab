@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/)
 
 <h2>Description</h2>
-In this lab I'm going to walk through how to create an AD home lab Environment using Oracle Virtual Box. Configuring and running this lab definitely helped develop my understanding of how AD and windows networking works, being able to run through it several times by memory and getting a good baseline for further experimentation.
+In this lab I'm going to very briefly document how I created an AD home lab Environment using Oracle Virtual Box. Configuring and running this lab definitely helped develop my understanding of how AD and windows networking works, being able to run through it several times by memory and getting a good baseline for further experimentation.
 <br />
 
 
@@ -28,6 +28,12 @@ First VM is the Domain Controller using Windows Server 2019: <br/>
 <p align="center">
 Creating a 2nd NIC for the VM intranet, 1st is real internet: <br/>
 <img src="https://imgur.com/rFKla5h.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
+<br />
+</p>
+
+<p align="center">
+After starting VM, running through custom install: <br/>
+<img src="https://imgur.com/dgY2dt8.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
 <br />
 </p>
 
