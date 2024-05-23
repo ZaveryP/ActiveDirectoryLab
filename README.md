@@ -98,7 +98,7 @@ To make a configuration that allows us to browse the internet from our DC (only 
 </p>
 
 <p align="center">
-Creating 1000 users using a Powershell script sourced online (I'll learn powershell after Python at some point for some basic scripting and admin tools):Start>Windows PowerShell ISE>More>Run as admin>insert script>write "Set-ExecutionPolicy Unrestricted" to allow for script to run on server>Yes to All>write "cd:\users\a-zprater\desktop\AD_PS-master" to change the pulled directory from sys32 to our desktop where the files sit>Play: <br/>
+Creating 1000 users using a Powershell script sourced online (I'll learn powershell after Python at some point for some basic scripting and admin tools):Start>Windows PowerShell ISE>More>Run as admin>insert script>write "Set-ExecutionPolicy Unrestricted" to allow for script to run on server>Yes to All>write "cd:\users\a-zprater\desktop\AD_PS-master" to change the pulled directory from sys32 to our admin user's desktop where the files sit>Play: <br/>
 <img src="https://imgur.com/nUYw17G.png" height="80%" width="80%" alt="Creating 1000 users"/>
 <br />
 </p>
