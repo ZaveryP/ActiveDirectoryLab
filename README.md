@@ -62,8 +62,20 @@ After installing AD you have to promote the server to a domain, simple domain na
 </p>
 
 <p align="center">
-Creating dedicated domain admin account: Start>Windows Admin Tools>AD Users and Computers>mydomain.com>New>Organizational Unit (basically a folder in AD)>Naming the OU _ADMINS then Create new>User, logon name being a-zprater to signify an admin account: <br/>
+Creating dedicated domain admin account: Start>Windows Admin Tools>AD Users and Computers>mydomain.com>New>Organizational Unit (basically a folder in AD)>Naming the OU _ADMINS then Create new>User, logon name being a-zprater to signify an admin account, then Properties on the new user account>Member Of>Add>Domain Admins, thus creating the admin account: <br/>
 <img src="https://imgur.com/vztYVv3.png" height="80%" width="80%" alt="Creating dedicated domain admin account"/>
+<br />
+</p>
+
+<p align="center">
+Now we can login using our admin account under MYDOMAIN: <br/>
+<img src="https://imgur.com/4oRW9Wi.png" height="80%" width="80%" alt="Now we can login using our admin account under MYDOMAIN"/>
+<br />
+</p>
+
+<p align="center">
+Next service we need to install is RAS/NAT so our future Win11 client can access the internet through the DC while being nested in this private virtual network: Add roles and features>Next x3>:Remote Access>Next x3>Routing>Add Features>Next x3>Install <br/>
+<img src="https://imgur.com/agj2eVV.png" height="80%" width="80%" alt="Now we can login using our admin account under MYDOMAIN"/>
 <br />
 </p>
 
