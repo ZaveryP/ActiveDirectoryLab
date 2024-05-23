@@ -79,10 +79,30 @@ Next service we need to install is RAS/NAT so our future Win11 client can access
 <br />
 </p>
 
-Tools>Routing and Remote Access>DC(local)>Configure and Enable Routing and Remote Access>Next>NAT>: <br/>
-<img src="https://imgur.com/4oRW9Wi.png" height="80%" width="80%" alt="Now we can login using our admin account under MYDOMAIN"/>
+Tools>Routing and Remote Access>DC(local)>Configure and Enable Routing and Remote Access>Next>NAT (typically have to redo this step tree to see the Network Interfaces for some reason)>select _INTERNET_>Finish: <br/>
+<img src="https://imgur.com/EBpM2AE.png" height="80%" width="80%" alt="Now we can login using our admin account under MYDOMAIN"/>
 <br />
 </p>
+
+<p align="center">
+Next service is DHCP: Add roles and features>Next x3>DHCP server>Add Features>Next x3>Install. Tools>DHCP>dc.mydomain.com>IPv4>New Scope>172.16.0.100-200 for name>172.16.0.100, 172.16.0.200, length of mask is 24 = 255.255.255.0>Next>no exclusions for setup so Next>:8 days>Next>172.160.0.1 (DC's IP with NAT configured) and Add (important step, easily missed), Next x4>Finish>dc.mydomain.com>Authorize>IPv4/IPv6 is green which means DHCP is fully set up!: <br/>
+<img src="https://imgur.com/5HdLgjl.png" height="80%" width="80%" alt="Next service is DHCP"/>
+<br />
+</p>
+
+<p align="center">
+To make a configuration that allows us to browse the internet from our DC (only in lab setting for ease of access, big no-no in production environments): Configure this local server>:"On" hypertext next to Internet Explorer Enhanced Security Config>Off and Off: <br/>
+<img src="https://imgur.com/BaXAwz2.png" height="80%" width="80%" alt="To make a configuration that allows us to browse the internet"/>
+<br />
+</p>
+
+<p align="center">
+Creating 1000 users using a Powershell script sourced online (I'll learn powershell after Python at some point for some basic scripting and admin tools):Start>Windows PowerShell ISE>More>Run as admin>insert script>write "Set-ExecutionPolicy Unrestricted" to allow for script to run on server>Yes to All>write "cd:\users\a-zprater\desktop\AD_PS-master" to change the pulled directory from sys32 to our desktop where the files sit>Play: <br/>
+<img src="https://imgur.com/nUYw17G.png" height="80%" width="80%" alt="Creating 1000 users"/>
+<br />
+</p>
+
+
 
 <!--
  ```diff
