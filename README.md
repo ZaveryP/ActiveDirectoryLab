@@ -27,27 +27,40 @@ First VM is the Domain Controller using Windows Server 2019: <br/>
 
 <p align="center">
 Creating a 2nd NIC for the VM intranet, 1st is real internet: <br/>
-<img src="https://imgur.com/rFKla5h.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
+<img src="https://imgur.com/rFKla5h.png" height="80%" width="80%" alt="Creating a 2nd NIC for the VM intranet, 1st is real internet"/>
 <br />
 </p>
 
 <p align="center">
 After starting VM, running through custom install: <br/>
-<img src="https://imgur.com/dgY2dt8.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
+<img src="https://imgur.com/dgY2dt8.png" height="80%" width="80%" alt="After starting VM, running through custom install"/>
 <br />
 </p>
 
 <p align="center">
-Figuring out which connection is the VM intranet and external internet (external has proper IP addressing from my router): <br/>
-<img src="https://imgur.com/zjQM3R9.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
+Figuring out which NIC is which (external internet has IP addressing from my router, whereas internal cannot find DHCP yet which means its assigned an autoconfig IP) and renaming properly: <br/>
+<img src="https://imgur.com/zjQM3R9.png" height="80%" width="80%" alt="Figuring out which NIC is which (external internet has IP addressing from my router, whereas internal cannot find DHCP yet which means its assigned an autoconfig IP) and renaming properly"/>
 <br />
 </p>
 
 <p align="center">
-Figuring out which NIC is which (external internet has IP addressing from my router, whereas internal cannot find DHCP yet which means its assigned an autoconfig IP: <br/>
-<img src="https://imgur.com/zjQM3R9.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
+Assigning static IP to internal NIC (no default gateway because DC serves *as* the gateway, same for DNS so you use the same IP address or the loopback address of 127.0.0.1. Interesting!): <br/>
+<img src="https://imgur.com/CGAdn8E.png" height="80%" width="80%" alt="Assigning static IP to internal NIC (no default gateway because DC serves *as* the gateway, same for DNS so you use the same IP address or the loopback address of 127.0.0.1. Interesting!"/>
 <br />
 </p>
+
+<p align="center">
+First service to install is Active Directory through: "Add roles and features">Next x3>Highlighting Active Directory Domain Services and Add Features>Next x3>Install: <br/>
+<img src="https://imgur.com/2SuK69o.png" height="80%" width="80%" alt="First service to install is Active Directory"/>
+<br />
+</p>
+
+<p align="center">
+After installing AD you have to promote the server to a domain, simple domain name of 'mydomain.com': <br/>
+<img src="https://imgur.com/waizNij.png" height="80%" width="80%" alt="First VM is the Domain Controller using Windows Server 2019"/>
+<br />
+</p>
+
 
 <!--
  ```diff
