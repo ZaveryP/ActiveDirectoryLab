@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/)
 
 <h2>Description</h2>
-In this lab I'm going to very briefly document how I created an AD home lab Environment using Oracle Virtual Box. Configuring and running this lab definitely helped develop my understanding of how AD and windows networking works, being able to run through it several times by memory and getting a good baseline for further experimentation.
+In this lab I'm going to very comprehensively document how I created an AD home lab Environment using Oracle Virtual Box. Configuring and running this lab definitely helped develop my understanding of how AD and windows networking works, being able to run through it several times by memory and getting a good baseline for further experimentation.
 <br />
 
 
@@ -58,6 +58,12 @@ First service to install is Active Directory through: "Add roles and features">N
 <p align="center">
 After installing AD you have to promote the server to a domain, simple domain name of 'mydomain.com' and Next x4>Install (all passwords in lab are Password1), and after signing out MYDOMAIN is created!: <br/>
 <img src="https://imgur.com/waizNij.png" height="80%" width="80%" alt="After installing AD you have to promote the server to a domain"/>
+<br />
+</p>
+
+<p align="center">
+Creating dedicated domain admin account: Start>Windows Admin Tools>AD Users and Computers>mydomain.com>New>Organizational Unit (basically a folder in AD)>Naming the OU _ADMINS then Create new>User, logon name being a-zprater to signify an admin account: <br/>
+<img src="https://imgur.com/vztYVv3.png" height="80%" width="80%" alt="Creating dedicated domain admin account"/>
 <br />
 </p>
 
