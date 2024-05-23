@@ -26,7 +26,7 @@ First VM is the Domain Controller using Windows Server 2019: <br/>
 </p>
 
 <p align="center">
-Creating a network adapter for the internal network: <br/>
+Creating a 2nd NIC for the intranet, 1st is for internet: <br/>
 <img src="https://imgur.com/a/00Q8g1V.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
 <br />
 </p>
