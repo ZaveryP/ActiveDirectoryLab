@@ -37,6 +37,12 @@ After starting VM, running through custom install: <br/>
 <br />
 </p>
 
+<p align="center">
+Figuring out which connection is the VM intranet and external internet (external has proper IP addressing from my router): <br/>
+<img src="https://imgur.com/zjQM3R9.png" height="80%" width="80%" alt="Creating a network adapter for the internal network"/>
+<br />
+</p>
+
 <!--
  ```diff
 - text in red
