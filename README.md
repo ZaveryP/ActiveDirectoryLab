@@ -21,7 +21,13 @@ In this lab I'm going to walk through how to create an AD home lab Environment u
 
 <p align="center">
 Example1: <br/>
-<img src="https://imgur.com/UjRO69O.png" height="80%" width="80%" alt="Example1"/>
+<img src="https://imgur.com/UjRO69O.png" height="80%" width="80%" alt="First VM is the Domain Controller using Windows Server 2019"/>
+<br />
+</p>
+
+<p align="center">
+Example1: <br/>
+<img src="https://imgur.com/a/00Q8g1V.png" height="80%" width="80%" alt="First VM is the Domain Controller using Windows Server 2019"/>
 <br />
 </p>
 
