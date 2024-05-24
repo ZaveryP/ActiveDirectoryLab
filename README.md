@@ -1,5 +1,9 @@
 <h1>Active Directory Lab w/ VM</h1>
 In this lab I'm going to very comprehensively document how I created an AD home lab environment using Oracle Virtual Box. Configuring and running this lab definitely helped develop my understanding of how AD and windows networking works, being able to run through it several times by memory and getting a good baseline for further experimentation.
+<p align="center">
+<img src="https://imgur.com/Vv1IP1M.png" height="80%" width="80%" alt="Network Diagram"/>
+<br />
+</p>
 <br />
 
 
@@ -14,11 +18,6 @@ In this lab I'm going to very comprehensively document how I created an AD home 
 - <b>Windows 11 Pro</b>
 
 <h2>Program walk-through:</h2>
-
-<p align="center">
-<img src="https://imgur.com/Vv1IP1M.png" height="80%" width="80%" alt="Network Diagram"/>
-<br />
-</p>
 
 <p align="center">
 Creating a 2nd NIC for the VM intranet, 1st is real internet: <br/>
