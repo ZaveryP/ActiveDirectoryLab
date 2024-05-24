@@ -16,8 +16,7 @@ In this lab I'm going to very comprehensively document how I created an AD home 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-First VM is the Domain Controller using Windows Server 2019: <br/>
-<img src="https://imgur.com/UjRO69O.png" height="80%" width="80%" alt="First VM is the Domain Controller using Windows Server 2019"/>
+<img src="https://imgur.com/Vv1IP1M.png" height="80%" width="80%" alt="Network Diagram"/>
 <br />
 </p>
 
